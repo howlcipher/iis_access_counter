@@ -1,4 +1,4 @@
 # config.yaml
-log_directory: "\\\\s13\\c$\\inetpub\\logs\\LogFiles"
+log_directory: "\\\\server\\c$\\inetpub\\logs\\LogFiles"
 access_count_file: "access_counts.txt"
 database_file: "access_counts.db"   
