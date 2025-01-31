@@ -34,7 +34,7 @@ Ensure you have access to the IIS log files you wish to parse.
 
 The application uses a `config.yaml` file for configuration. Below is an example of how to structure the configuration file:
 ```yaml
-log_directory: "\\\\s13\\c$\\inetpub\\logs\\LogFiles"  # Path to the log directory
+log_directory: "\\\\serrver\\c$\\inetpub\\logs\\LogFiles"  # Path to the log directory
 access_count_file: "access_counts.txt"                   # Output text file for access counts
 database_file: "access_counts.db"                         # SQLite database file path
 ``` 
